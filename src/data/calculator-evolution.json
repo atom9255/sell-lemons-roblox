@@ -1,0 +1,28 @@
+[
+  {
+    "id": "evolution",
+    "name": "Evolution (Rebirth)",
+    "trigger": "$77 Sextillion net worth",
+    "reward": "Alien Investors (+1% cash per investor permanently)",
+    "multiplier": "+1% per investor",
+    "note": "In-game calls it 'Evolution'. Fast prestige reset. Wait for 350%+ investor bonus sweet spot before evolving."
+  },
+  {
+    "id": "void-evolution",
+    "name": "Void Evolution",
+    "trigger": "500 Quadrillion total investors",
+    "reward": "42× income multiplier (stacks multiplicatively)",
+    "multiplier": "42× (stacks)",
+    "resets": ["Investors", "Investor-bought powers", "Buildings"],
+    "fruitTiers": ["Orange", "Lime", "Higher tiers up to Purity"]
+  },
+  {
+    "id": "ascension",
+    "name": "Ascension",
+    "trigger": "Complete all buildings + Space Staircase",
+    "reward": "7.77× cash boost, 3.33× higher prices, leaderboard spot",
+    "multiplier": "7.77× cash / 3.33× prices",
+    "resets": ["Investors", "Void progress"],
+    "note": "Rare macro reset. Loses Cosmic Vine and void evolution progress. Gets Ascension Halo cosmetic."
+  }
+]

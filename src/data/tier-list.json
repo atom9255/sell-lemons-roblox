@@ -1,0 +1,90 @@
+[
+  {
+    "id": "lemon-stand",
+    "name": "Lemon Stand",
+    "level": 1,
+    "fruitType": "Lemon",
+    "emoji": "🍋",
+    "multiplier": "1×",
+    "unlockCondition": "Start of game ($1)",
+    "description": "Your humble beginning. Sell individual lemons for $1 each.",
+    "tier": "D"
+  },
+  {
+    "id": "lemondash",
+    "name": "LemonDash Delivery",
+    "level": 2,
+    "fruitType": "Lemon",
+    "emoji": "🚲",
+    "multiplier": "5×",
+    "unlockCondition": "After Lemon Stand fully upgraded",
+    "description": "Automated delivery service. Bikes deliver lemonade to customers.",
+    "tier": "D"
+  },
+  {
+    "id": "lemon-depot",
+    "name": "Lemon Depot",
+    "level": 3,
+    "fruitType": "Lemon",
+    "emoji": "🏭",
+    "multiplier": "50×",
+    "unlockCondition": "$13 Billion (wholesale)",
+    "description": "Wholesale lemon distribution. Refrigerated trucks for mass delivery.",
+    "tier": "C"
+  },
+  {
+    "id": "trading-floor",
+    "name": "Trading Floor",
+    "level": 4,
+    "fruitType": "Lemon",
+    "emoji": "📈",
+    "multiplier": "200×",
+    "unlockCondition": "Mountain Skyscraper Floor 1",
+    "description": "Trade lemon futures and derivatives. High-volume lemon economy.",
+    "tier": "C"
+  },
+  {
+    "id": "labs",
+    "name": "Research Labs",
+    "level": 5,
+    "fruitType": "Hybrid Lemon",
+    "emoji": "🔬",
+    "multiplier": "1,000×",
+    "unlockCondition": "Mountain Skyscraper Floor 2",
+    "description": "Genetic lemon modification. Create new citrus varieties for premium pricing.",
+    "tier": "B"
+  },
+  {
+    "id": "republic",
+    "name": "Citrus Republic",
+    "level": 6,
+    "fruitType": "Lime",
+    "emoji": "🏛️",
+    "multiplier": "10,000×",
+    "unlockCondition": "Mountain Skyscraper Floor 3",
+    "description": "Establish a lemon-based currency. Government-sanctioned citrus trade.",
+    "tier": "B"
+  },
+  {
+    "id": "robotics",
+    "name": "Robotics Division",
+    "level": 7,
+    "fruitType": "Lime",
+    "emoji": "🤖",
+    "multiplier": "100,000×",
+    "unlockCondition": "Mountain Skyscraper Floor 4",
+    "description": "Fully automated lemon production. AI-powered juicing and delivery.",
+    "tier": "A"
+  },
+  {
+    "id": "space-station",
+    "name": "Space Station Lemon X",
+    "level": 8,
+    "fruitType": "Purity Lemon",
+    "emoji": "🚀",
+    "multiplier": "Centillion×",
+    "unlockCondition": "Space Staircase complete",
+    "description": "Grow lemons in zero gravity. The pinnacle of citrus cultivation.",
+    "tier": "S"
+  }
+]

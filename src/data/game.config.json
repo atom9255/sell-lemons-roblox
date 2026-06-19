@@ -1,0 +1,76 @@
+{
+  "game": {
+    "name": "Sell Lemons",
+    "robloxId": "79268393072444",
+    "developer": "BloxByte Games",
+    "genre": "Tycoon / Incremental / Simulation",
+    "currentVersion": "Latest (2026)",
+    "lastUpdated": "2026-06-19",
+    "releaseDate": "2025-03-17",
+    "rating": "10+",
+    "platforms": ["PC", "Console", "Mobile (iOS/Android)"]
+  },
+  "stats": {
+    "visits": "166.2M+",
+    "favorites": "224,742",
+    "likes": "122,110",
+    "offlineEarning": "100%"
+  },
+  "seo": {
+    "siteTitle": "Sell Lemons Roblox — Guide, Calculator, Codes & Tier List 2026",
+    "siteDescription": "The ultimate Sell Lemons Roblox companion — Evolution calculator, codes, tier list, beginner guide, and sewer secrets. Updated daily by BloxByte Games fans.",
+    "baseUrl": "https://selllemons.gg",
+    "primaryKeywords": ["Sell Lemons Roblox", "Sell Lemons codes", "Sell Lemons guide"],
+    "secondaryKeywords": ["Sell Lemons calculator", "Sell Lemons evolution", "Sell Lemons rebirth", "Sell Lemons ascension", "Sell Lemons tier list", "Sell Lemons sewer secrets", "BloxByte Games"]
+  },
+  "routes": [
+    { "path": "/", "title": "Sell Lemons Roblox — Home", "priority": "1.0" },
+    { "path": "/calculator", "title": "Sell Lemons Evolution Calculator", "priority": "0.9" },
+    { "path": "/codes", "title": "Sell Lemons Codes 2026", "priority": "0.9" },
+    { "path": "/tier-list", "title": "Sell Lemons Tier List — Fruit Evolution", "priority": "0.9" },
+    { "path": "/beginner-guide", "title": "Sell Lemons Beginner Guide", "priority": "0.8" },
+    { "path": "/updates", "title": "Sell Lemons Updates", "priority": "0.8" },
+    { "path": "/about", "title": "About Sell Lemons", "priority": "0.5" },
+    { "path": "/terms", "title": "Terms of Service", "priority": "0.3" },
+    { "path": "/privacy-policy", "title": "Privacy Policy", "priority": "0.3" }
+  ],
+  "calculator": {
+    "type": "progression",
+    "dataFile": "calculator-evolution.json"
+  },
+  "tiers": {
+    "incomeSources": [
+      "Lemon Stand ($1)",
+      "LemonDash",
+      "Lemon Depot ($13B)",
+      "Mountain Skyscraper Floor 1 — Trading",
+      "Mountain Skyscraper Floor 2 — Labs",
+      "Mountain Skyscraper Floor 3 — Republic",
+      "Mountain Skyscraper Floor 4 — Robotics",
+      "Space Station Lemon X (Centillion)"
+    ],
+    "resetSystems": [
+      { "name": "Evolution (Rebirth)", "trigger": "$77 Sextillion", "reward": "Alien Investors (+1% cash each)", "note": "In-game calls it 'Evolution'" },
+      { "name": "Void Evolution", "trigger": "500 Quadrillion investors", "reward": "42× income multiplier (stacks)", "fruitTiers": ["Orange", "Lime", "Higher tiers up to Purity"] },
+      { "name": "Ascension", "trigger": "Complete all buildings + Space Staircase", "reward": "7.77× cash boost, 3.33× price penalty, leaderboard spot", "resets": ["Investors", "Void progress"] }
+    ],
+    "powers": [
+      { "name": "Remote Buy", "description": "Purchase upgrades from menu without traveling", "cost": "1 Trigintillion Alien Investors", "lostOnAscension": true },
+      { "name": "Forever Purchase", "description": "Keep one button purchased permanently", "source": "Free after Ascension, or Robux", "restrictions": ["Cannot use on Hill", "Cannot use on Staircase"] }
+    ],
+    "secrets": [
+      { "name": "Sewer Key", "location": "Underground maze via manhole", "unlock": "4 hidden mazes, find 2 secret keys", "reward": "Cash boost + Investor boost" },
+      { "name": "UFO Key", "location": "Sewer maze completion", "reward": "Permanent 2× investor bonus" },
+      { "name": "Cosmic Vine", "unlock": "After Sewer Key", "harvestInterval": "4 hours", "reward": "Special resources" },
+      { "name": "Cosmic Farmer Badge", "unlock": "After Cosmic Vine", "reward": "Cosmic Farmer achievement" }
+    ],
+    "managerPriority": [
+      "Lily Gumdrop (first hire)",
+      "Juicer",
+      "Cup Stand",
+      "Sugar Mixer",
+      "Delivery Fleet (Bikes → Refrigerated Trucks)",
+      "Robotics floor managers"
+    ]
+  }
+}

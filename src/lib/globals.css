@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 240;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 23, 42;
+  --background-end-rgb: 30, 41, 59;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    no-repeat;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-amber-500 text-white font-bold rounded-lg hover:bg-amber-600 transition-colors;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold rounded-lg hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors;
+  }
+  .card {
+    @apply p-6 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-sm;
+  }
+  .tag {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-bold;
+  }
+  .tag-green {
+    @apply tag bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400;
+  }
+  .tag-red {
+    @apply tag bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400;
+  }
+  .tag-amber {
+    @apply tag bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400;
+  }
+}
